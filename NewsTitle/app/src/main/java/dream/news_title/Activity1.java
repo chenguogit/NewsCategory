@@ -31,8 +31,14 @@ public class Activity1 extends AppCompatActivity {
             }
 
             @Override
-            public void bindData(View view, int index, NewsTitleView parentView) {
+            public void bindData(View view, final int index, NewsTitleView parentView) {
                 ((TextView)view).setText("index-" + index);
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        newsTitleView.setSelectIndex(index);
+                    }
+                });
             }
         });
         newsTitleView.setSelectIndex(5);

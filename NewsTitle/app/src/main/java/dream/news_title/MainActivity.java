@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.TextView;
+
+import dream.view.news_title.animation.NewsTitleView;
 
 /**
  * 3. 实现跟随滑动
