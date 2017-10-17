@@ -3,3 +3,5 @@
 
 ![image](https://github.com/chenguogit/NewsCategory/blob/master/news-title.jpg)
 ![image](https://github.com/chenguogit/NewsCategory/blob/master/news-title2.jpg)
+
+[技术实现 : http://139.196.79.74/android/news-category.jsp](http://139.196.79.74/android/news-category.jsp)
