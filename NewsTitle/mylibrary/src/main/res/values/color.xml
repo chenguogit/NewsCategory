@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="news_title_item_txt_pressed">#111</color>
+    <color name="news_title_item_txt_normal">#777</color>
+</resources>

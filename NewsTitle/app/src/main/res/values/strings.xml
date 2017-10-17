@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NewsTitle</string>
+    <array name="list_data">
+        <item>指示View动画移动</item>
+        <item>可以设置初始位置</item>
+        <item>指示View动画移动，简单使用</item>
+        <item>可以设置初始位置，简单使用</item>
+    </array>
+</resources>

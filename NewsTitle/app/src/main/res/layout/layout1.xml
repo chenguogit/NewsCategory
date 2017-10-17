@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <dream.view.news_title.animation.NewsTitleView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#890"/>
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向右"/>
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向左"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="增加一项"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="减少一项"/>
+</LinearLayout>
